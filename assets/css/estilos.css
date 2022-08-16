@@ -1,0 +1,139 @@
+/* importar estilos desde https://type-scale.com/ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+html {font-size: 100%;}
+
+/*16px*/
+
+body {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  background-color: #000000;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  opacity: 1;
+}
+
+h2 {font-size: 2rem;}
+
+
+small, .text_small {font-size: 0.75rem;}
+
+
+
+.titulo {
+    width:auto;
+    height: 73px;
+}
+
+
+header {
+    width: auto;
+    height: 727px;
+    background-image: url("/assets/img/bg-header-owl.jpg");
+    background-size: cover;
+}
+
+main{
+    width: auto;
+    height: 348px;
+    
+}
+
+
+.contenido {
+
+    height: 197px;
+    float:left;
+    margin-left: 16%;
+    text-align: justify;      
+    width: 35%;
+    padding-top: 40px;
+
+}
+
+
+main img {
+
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    padding-left: 80px;
+    padding-top: 60px;
+
+}
+
+/* No logré cambiar el tamaño de los íconos para que se vieran más grandes */
+
+.caracteristicas {
+    width: 100%; 
+    text-align: center;
+    margin: 0;
+    border: solid 1px #333;
+    padding: 0.5em;
+    color: white;
+    background-color:#1E1A13;
+}
+
+
+
+.detalle {
+    display: inline-block;
+    width: 19%;
+    padding: 1%;
+    text-size-adjust: auto;
+    
+}
+
+
+
+.galeria {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.foto {
+    display: inline-block;
+    width: 23%;
+}
+
+
+
+.foto img {
+    width: 316px;
+    height: 202px;
+}
+
+/* definimos estilo del footer... no logré cambiar el color del link... */
+
+footer {
+    background-color: rgb(226, 240, 226);
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
